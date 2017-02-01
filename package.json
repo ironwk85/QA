@@ -4,6 +4,7 @@
   "description": "first site",
   "main": "index.js",
   "repository": "none",
+  "test": "mocha",
   "dependencies": {
     "express": "~4.13.1",
     "express-handlebars": "^3.0.0"

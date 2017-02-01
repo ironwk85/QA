@@ -8,6 +8,8 @@ app.set('port', process.env.PORT || 3000);
 
 app.use(express.static(__dirname + '/public'));
 
+if( app.thing == null ) console.log( 'bleat!' );
+
 /*******************1***********************
 *******************************************/
 var fortunes = [
